@@ -275,7 +275,8 @@ class SpringActuatorChecker:
 
     def validate_request_response_contract(self, endpoint: str, method: str = "GET",
                                          request_data: Optional[Dict] = None,
-                                         expected_response_schema: Optional[Dict] = None) -> Dict[str, Any]:
+                                         expected_response_schema: Optional[Dict] = None,
+                                         headers: Optional[Dict[str, str]] = None) -> Dict[str, Any]:
         """
         Validate that API request/response follows expected contract
 
@@ -284,6 +285,7 @@ class SpringActuatorChecker:
             method: HTTP method
             request_data: Expected request structure
             expected_response_schema: Expected response structure
+            headers: Additional headers to send with the request
 
         Returns:
             Dictionary with contract validation results
@@ -291,7 +293,7 @@ class SpringActuatorChecker:
         logger.info(f"Validating contract for {method} {endpoint}")
 
         # Make the API call
-        api_result = self.check_custom_api(endpoint, method, json_data=request_data)
+        api_result = self.check_custom_api(endpoint, method, headers=headers, json_data=request_data)
 
         contract_result = {
             "endpoint": endpoint,
