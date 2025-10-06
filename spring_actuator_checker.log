@@ -1,0 +1,68 @@
+2025-10-06 10:49:02,127 - INFO - Checking actuator health endpoint: https://test-app.com/actuator/health
+2025-10-06 10:49:02,128 - INFO - Health check completed - Status: 503, Time: 0.00s
+2025-10-06 10:49:02,130 - INFO - Checking actuator health endpoint: https://test-app.com/actuator/health
+2025-10-06 10:49:02,130 - INFO - Health check completed - Status: 200, Time: 0.00s
+2025-10-06 10:49:02,133 - INFO - Checking actuator info endpoint: https://test-app.com/actuator/info
+2025-10-06 10:49:02,134 - INFO - Info check completed - Status: 200, Time: 0.00s
+2025-10-06 10:49:02,135 - INFO - Checking API endpoint: https://test-app.com/api/html-endpoint (GET)
+2025-10-06 10:49:02,136 - WARNING - Response is not JSON: <html>Not JSON response</html>...
+2025-10-06 10:49:02,137 - INFO - API check completed - Status: 200, Expected: 200, Time: 0.00s
+2025-10-06 10:49:02,138 - INFO - Checking API endpoint: https://test-app.com/api/users (POST)
+2025-10-06 10:49:02,139 - INFO - API check completed - Status: 201, Expected: 201, Time: 0.00s
+2025-10-06 10:49:02,140 - INFO - Checking API endpoint: https://test-app.com/api/protected (GET)
+2025-10-06 10:49:02,141 - INFO - API check completed - Status: 200, Expected: 200, Time: 0.00s
+2025-10-06 10:49:02,142 - INFO - Starting comprehensive deployment check for module: test-module
+2025-10-06 10:49:02,142 - INFO - Deployment check completed for test-module - Status: DOWN
+2025-10-06 10:49:02,145 - INFO - Starting comprehensive deployment check for module: test-module
+2025-10-06 10:49:02,146 - INFO - Deployment check completed for test-module - Status: HEALTHY
+2025-10-06 10:49:02,149 - INFO - Validating contract for GET /api/test
+2025-10-06 10:49:02,150 - INFO - Validating contract for GET /api/test
+2025-10-06 10:49:02,150 - INFO - Contract validation completed - Valid: False
+2025-10-06 10:49:02,151 - INFO - Validating contract for GET /api/test
+2025-10-06 10:49:02,151 - INFO - Contract validation completed - Valid: True
+2025-10-06 10:49:20,660 - INFO - Checking actuator health endpoint: https://test-app.com/actuator/health
+2025-10-06 10:49:20,660 - INFO - Health check completed - Status: 503, Time: 0.00s
+2025-10-06 10:49:20,662 - INFO - Checking actuator health endpoint: https://test-app.com/actuator/health
+2025-10-06 10:49:20,663 - INFO - Health check completed - Status: 200, Time: 0.00s
+2025-10-06 10:49:20,664 - INFO - Checking actuator info endpoint: https://test-app.com/actuator/info
+2025-10-06 10:49:20,665 - INFO - Info check completed - Status: 200, Time: 0.00s
+2025-10-06 10:49:20,666 - INFO - Checking API endpoint: https://test-app.com/api/html-endpoint (GET)
+2025-10-06 10:49:20,667 - WARNING - Response is not JSON: <html>Not JSON response</html>...
+2025-10-06 10:49:20,667 - INFO - API check completed - Status: 200, Expected: 200, Time: 0.00s
+2025-10-06 10:49:20,668 - INFO - Checking API endpoint: https://test-app.com/api/users (POST)
+2025-10-06 10:49:20,669 - INFO - API check completed - Status: 201, Expected: 201, Time: 0.00s
+2025-10-06 10:49:20,670 - INFO - Checking API endpoint: https://test-app.com/api/protected (GET)
+2025-10-06 10:49:20,670 - INFO - API check completed - Status: 200, Expected: 200, Time: 0.00s
+2025-10-06 10:49:20,672 - INFO - Starting comprehensive deployment check for module: test-module
+2025-10-06 10:49:20,672 - INFO - Deployment check completed for test-module - Status: DOWN
+2025-10-06 10:49:20,673 - INFO - Starting comprehensive deployment check for module: test-module
+2025-10-06 10:49:20,673 - INFO - Deployment check completed for test-module - Status: HEALTHY
+2025-10-06 10:49:20,675 - INFO - Validating contract for GET /api/test
+2025-10-06 10:49:20,677 - INFO - Validating contract for GET /api/test
+2025-10-06 10:49:20,677 - INFO - Contract validation completed - Valid: False
+2025-10-06 10:49:20,680 - INFO - Validating contract for GET /api/test
+2025-10-06 10:49:20,680 - INFO - Contract validation completed - Valid: True
+2025-10-06 10:50:21,223 - INFO - Starting comprehensive deployment check for module: demo-module
+2025-10-06 10:50:21,224 - INFO - Checking actuator health endpoint: https://httpbin.org/actuator/health
+2025-10-06 10:50:24,718 - INFO - Health check completed - Status: 404, Time: 3.49s
+2025-10-06 10:50:24,718 - INFO - Checking actuator info endpoint: https://httpbin.org/actuator/info
+2025-10-06 10:50:24,997 - INFO - Info check completed - Status: 404, Time: 0.28s
+2025-10-06 10:50:24,997 - INFO - Deployment check completed for demo-module - Status: DOWN
+2025-10-06 10:50:25,006 - INFO - Checking API endpoint: https://httpbin.org/get (GET)
+2025-10-06 10:50:26,826 - INFO - API check completed - Status: 200, Expected: 200, Time: 1.82s
+2025-10-06 10:50:26,829 - INFO - Checking API endpoint: https://httpbin.org/post (POST)
+2025-10-06 10:50:28,674 - INFO - API check completed - Status: 200, Expected: 200, Time: 1.84s
+2025-10-06 10:50:28,684 - INFO - Validating contract for GET /get
+2025-10-06 10:50:28,685 - INFO - Checking API endpoint: https://httpbin.org/get (GET)
+2025-10-06 10:50:30,594 - INFO - API check completed - Status: 200, Expected: 200, Time: 1.91s
+2025-10-06 10:50:30,595 - INFO - Contract validation completed - Valid: True
+2025-10-06 10:50:30,598 - INFO - Checking API endpoint: https://nonexistent-domain-12345.com/test (GET)
+2025-10-06 10:50:30,741 - ERROR - API check failed: HTTPSConnectionPool(host='nonexistent-domain-12345.com', port=443): Max retries exceeded with url: /test (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018A48B5B590>: Failed to resolve 'nonexistent-domain-12345.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-06 10:50:30,743 - INFO - Starting comprehensive deployment check for module: example-service
+2025-10-06 10:50:30,743 - INFO - Checking actuator health endpoint: https://httpbin.org/actuator/health
+2025-10-06 10:50:32,567 - INFO - Health check completed - Status: 404, Time: 1.82s
+2025-10-06 10:50:32,567 - INFO - Checking actuator info endpoint: https://httpbin.org/actuator/info
+2025-10-06 10:50:32,844 - INFO - Info check completed - Status: 404, Time: 0.28s
+2025-10-06 10:50:32,845 - INFO - Deployment check completed for example-service - Status: DOWN
+2025-10-06 10:50:32,846 - INFO - Checking API endpoint: https://httpbin.org/get (GET)
+2025-10-06 10:50:33,125 - INFO - API check completed - Status: 200, Expected: 200, Time: 0.28s
